@@ -1,4 +1,7 @@
-# frontstrapi
+# VueJs complete base
+```
+Include : VueRouter, Bootstrap, SweetAlert2, Axios
+```
 
 ## Project setup
 ```
