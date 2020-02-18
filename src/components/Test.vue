@@ -1,7 +1,7 @@
 <template>
     <div class="row bg-dark text-white text-center">
         <div class="col-sm-12 vertical-center">
-            Hello tu es dans le composant test :D ! <br/>
+            <h1>Hello tu es dans le composant test :D !</h1>
             <router-link class="btn btn-danger mt-3" :to="{ name: 'home'}">Retour à la page d'accueil</router-link>
         </div>
     </div>
