@@ -14,8 +14,6 @@
 </template>
 
 <script>
-    import router from "../../config/router";
-
     export default {
         name: "Home",
         methods: {
@@ -44,7 +42,7 @@
                 });
             },
             gototest: function () {
-                router.push({name: "test"});
+                this.$router.push({name: "test"});
             }
         }
     }
