@@ -1,6 +1,20 @@
 # VueJs complete base
 ```
-Include : VueRouter, Bootstrap, SweetAlert2, Axios
+After cloning the project, go to project's directory and do these commands:
+
+rm -rf .git
+git init
+git add --all
+git commit -m "your first commit"
+git remode add origin yourgitrepository.git
+git push origin master
+
+The project include these packages: 
+
+VueRouter
+Bootstrap
+SweetAlert2
+Axios
 ```
 
 ## Project setup
