@@ -3,16 +3,21 @@
         <div class="col-12">
             <h1>Exemple de page avec bootstrap</h1>
         </div>
-        <div class="col-6">
+        <div class="col-3">
             <button v-on:click="alert_message" type="button" class="btn btn-danger">Show alert</button>
         </div>
-        <div class="col-6">
+        <div class="col-3">
             <button v-on:click="axios_message" type="button" class="btn btn-success">Show alert with axios</button>
+        </div>
+        <div class="col-3">
+            <button v-on:click="gototest" type="button" class="btn btn-info">Go to test</button>
         </div>
     </div>
 </template>
 
 <script>
+    import router from "../../config/router";
+
     export default {
         name: "Home",
         methods: {
@@ -39,6 +44,9 @@
                 this.axios.get(url).then((response) => {
                     this.$swal("Voici le prix d'un " + response.data.symbol + " : " + response.data.profile.price);
                 });
+            },
+            gototest: function () {
+                router.push({name: "test"});
             }
         }
     }
