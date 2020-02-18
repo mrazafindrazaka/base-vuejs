@@ -3,9 +3,9 @@
         <div class="col-12">
             <h1>Exemple de page avec bootstrap</h1>
         </div>
-        <div class="col-12">
+        <div class="col-12 mt-3">
             <button v-on:click="alert_message" type="button" class="btn btn-danger">Show alert</button>
-            <button v-on:click="axios_message" type="button" class="btn btn-success">Show alert with axios</button>
+            <button v-on:click="axios_message" type="button" class="btn btn-success mr-3 ml-3">Show alert with axios</button>
             <button v-on:click="gototest" type="button" class="btn btn-info">Go to test</button>
         </div>
     </div>
