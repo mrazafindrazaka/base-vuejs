@@ -1,7 +1,7 @@
 import VueRouter from "vue-router";
 
-import Home from "../src/components/Home";
-import Test from "../src/components/Test";
+import Home from "../components/Home";
+import Test from "../components/Test";
 
 const routes = [
     {path: '/', name: 'home', component: Home},
