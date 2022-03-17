@@ -9,7 +9,7 @@ git commit -m "your first commit"
 git remode add origin yourgitrepository.git
 git push origin master
 
-The project include these packages: 
+The project include these packages ez: 
 
 VueRouter
 Bootstrap
